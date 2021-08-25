@@ -1,83 +1,50 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    margin:0px;
+}
+
 body {
 	background: black;
-	font-family: 'Indie Flower', cursive;
-}
-
-button{
-	
-	font-family: 'Indie Flower', cursive;
-}
-
-.custom-input input::-webkit-input-placeholder {
-	font-family: 'Indie Flower', cursive;
-}
-
-.custom-input input:-ms-input-placeholder {
-	font-family: 'Indie Flower', cursive;
-}
-
-.custom-input input:-moz-placeholder {
-	font-family: 'Indie Flower', cursive;
-}
-
-.custom-input input::-moz-placeholder {
-	font-family: 'Indie Flower', cursive;
-}
-
-p, h1{
-	margin:0;
 }
 
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
-	padding:5px;
+    margin: auto;
+    padding:10px;
 }
 
 .postcard-header {
 	display: flex;
 }
 
+.postcard-header .title{
+	width: 90%;
+}
+
+.postcard-header h1 {
+	margin: 0px;
+}
+
 .postcard-header img {
 	width: 50px;
 	height: 50px;
-	margin-bottom:0px;
 }
 
 .postcard-body {
 	display: flex;
-	padding:5px;
-	margin-top:10px;
 }
 
 .postcard-footer {
-	text-align: center;
+    text-align: center;
 }
 
-.header-left{
-	width:90%;
-	padding:5px;
-}
-.header-right{
-	widdth:30%;
+.postcard-footer button {
+	background: grey;
+	padding: 5px;
 }
 
-p{
-	margin-bottom:1em;
-}
-
-input{
-	outline: 0;
-	border-width: 0 0 2px;
-	margin-bottom:1em;
-}
-
-.custom-input{
-	position: relative;
-}
-.custom-input .icon-right{
-	position:absolute;
-	right:0;
+.postcard-body .body-left, .postcard-body .body-right{
+    padding:5px;
 }

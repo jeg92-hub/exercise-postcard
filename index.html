@@ -3,45 +3,35 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+		<title>Document</title>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<div class="postcard">
 			<div class="postcard-header">
-				<div class="header-left">
-					<h1>My Postcard</h1>
-				</div>
-				<div class="header-right">
-					<img
-						src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
-					/>
-				</div>
+                <div class="title">
+				    <h1>My Postcard</h1>
+                </div>
+                <div class="logo">
+                    <img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+				/>
+                </div>
 			</div>
 			<div class="postcard-body">
 				<div class="body-left">
 					<p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4 Geeks Academy Course!</p>
-					<p>This is so cool, can't wait to start doing more stuff!</p>
+                    <br>
+                    <p>This is so cool, can't wait to start doing more stuff!</p>
 				</div>
 				<div class="body-right">
-					<div class="custom-input">
-  						<span class="icon-right fa fa-pencil"></span>
-						<input type="text" name="some_name" placeholder="Some name" />
-					</div>
-					<div class="custom-input">
-  						<span class="icon-right fa fa-pencil"></span>
-						<input type="text" name="some_email" placeholder="Some email" />
-					</div>
-					<div class="custom-input">	
-						<input type="text" name="some_comment" placeholder="Some comment" />
-					</div>
+					<input type="text" placeholder="Some Name" name="name" />
+					<input type="email" placeholder="Some Name" name="email" />
+					<input type="text" placeholder="Some Name" name="comment" />
 				</div>
 			</div>
 			<div class="postcard-footer">
-				<button type="button">Send PostCard</button>
+				<button class="button">Send My Postcard</button>
 			</div>
 		</div>
 	</body>
